@@ -41,8 +41,14 @@ public class PrintSumAndMultiples {
 		int range = 10;
 		_Utils utilsObj = new _Utils(number1, number2, range);
 		System.out.println("Sum: " + utilsObj.getSum());
-		System.out.println(
-				"Multiples of " + number1 + " & " + number2 + " below " + range + " : " + utilsObj.getListMultiples());
+		System.out.println("Multiples of " + number1 + " & " + number2 + " below " + range + " : " + utilsObj.getListMultiples());
+		
+		/**
+		* #OUTPUT
+		* Sum: 23
+		* Multiples of 3 & 5 below 10 : [3, 5, 6, 9]
+		**/
+		
 	}
 
 }
